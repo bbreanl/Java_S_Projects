@@ -1,9 +1,8 @@
 alert ("numbers")
 function addition_Function() {
-    var addition = 2+2;
+    var addition = 2 + 2;
     document.getElementById("Math").
-innerHTML = "2+2 = " + addition;
-    document.write(addition)
+innerHTML = "2 + 2 = " + addition;
 }
 
 function subtraction_Function() {
@@ -11,6 +10,17 @@ function subtraction_Function() {
     document.getElementById("Math").
 innerHTML = "5-2 =" + Subtraction
 }
+
+function multiplication() {
+    var simple_Math = 6*8;
+    document.getElementById("Math").innerHTML ="6 x 8 = " + simple_Math;
+}
+
+    function division() {
+        var simple_Math = 48/6; 
+        document.getElementById("Math").innerHTML = "48/6 = " + simple_Math;
+    }
+
 
 function more_Math() {
     var simple_Math = (1+2) * 10/2-5;
@@ -28,13 +38,11 @@ function negation_Operator() {
     document.getElementById("Math").innerHTML = -x 
 }
 
-var X = 5;
+var X = 5; 
 X++;
-document.write(X); 
+document.write(X);
+
 
 var X = 5.25;
 X--;
 document.write(X);
-
-window.alert(Math.random());
-window.alert(Math.random() * 100);
